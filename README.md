@@ -26,24 +26,6 @@ This system provides a single point of interaction (Singleton) to manage student
 - **Observer**: `StudentObserver` receives notifications when a spot becomes available in a course  
 - **Facade**: Multiple layers (e.g., `Student` methods, `RegistrationSystem`) simplify interactions for the user
 
-## Installation
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/YourUsername/Course-Registration-System.git
-   ```
-2. **Navigate to the Directory**:
-   ```bash
-   cd Course-Registration-System
-   ```
-3. **Compile the Project**:
-   ```bash
-   javac -d bin src/**/*.java
-   ```
-4. **Run the Project** (example command; depends on your `Main` class location):
-   ```bash
-   java -cp bin Main
-   ```
-
 ## Usage
 - **Create Users**: Use `UserFactory` to create `Student`, `TA`, or `Lecturer`.
 - **Register Courses**: Add new courses through `RegistrationSystem.addCourse()`.
